@@ -10,3 +10,12 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup Debug Session
         uses: csexton/debugger-action@master
+- name: Setup Debug Session
+
+  uses: csexton/debugger-action@v1
+
+  with:
+
+    env:
+
+      ACTIONS_STEP_DEBUG: true
